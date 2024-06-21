@@ -46,7 +46,7 @@ html{
     background-color: #0C3B2E ;
 }
 .bg-white{
-    background-color: #FDF0F4;
+    background-color: #0C3B2E ;
 }
 
 .bg-brownie{
@@ -105,20 +105,24 @@ p{
     font-size: 20px;
     padding-top: 1%;
     padding-bottom: 2%;
-    color: #0C3B2E;
-}
-span{
-    color: #6D9773;
-    font-family: 'Bebas Neue', sans-serif;
+    color: #5B3256;
 }
 
+.eleccion i{
+    color: #A7B768!important;
+    font-size: 50px;
+}
 
 .categorias img{
     width: 200px;
     height: 200px;
     border-radius: 35px;
 }
-
+.thumbnail img{
+    width: 350px;
+    height: 350px;
+    border-radius: 35px; 
+}
 
 a :hover,.enlace:hover{
   color: #0C3B2E ;
@@ -146,7 +150,7 @@ img{
     margin: 10px 0px;
 }
 .img-rounded{
-    border: 3px solid #0C3B2E;
+    border-radius: 50px!important;
     box-shadow: 1px 1px 5px black;
 }
 
@@ -184,9 +188,25 @@ img{
     transform: scale(1.1);
 }
 .thumbnail{
-    border-color: #6D9773;
-}
 
+    border-radius: 50px!important;
+    box-shadow: 3px 2px 5px #CAA4C8;
+}
+.carousel-control.left {
+    background-image: none;
+    margin-left: -130px;
+    
+    color: #5B3256;
+  }
+  .carousel-control.right {
+    background-image: none;
+    margin-right: -130px!important;
+    color: #5B3256;
+  }
+  .carousel-control span:hover {
+    background-image: none;
+    color: #5B3256;
+  }
 .icono{
     font-size: 64px;
     color: #6D9773;
