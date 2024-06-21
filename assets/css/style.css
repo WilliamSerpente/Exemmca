@@ -28,11 +28,23 @@ html{
     scroll-behavior: smooth;
   }
 
+  .iconos i{
+    font-size: 50px;
+    color: #A7B768;
+  }
 .container-fluid {
     padding: 60px 50px;
     background-color: rgb(255, 255, 255);
 
   }
+  .imagencudo{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+    background-image: url(../img/modelo.jpg);
+  }
+
 
 .bg-pink{
     background-color: #caa4c8b3;
@@ -61,7 +73,12 @@ html{
 .color-amarillo{
   color: #FFBA00;  
 }
-
+.final{
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-position:0px 500px;
+  background-image: url(../img/estrellas.png);
+}
 
 .header{
     height: 500px;
@@ -107,7 +124,9 @@ p{
     padding-bottom: 2%;
     color: #5B3256;
 }
-
+.parallax1{
+  height: 600px;
+}
 .eleccion i{
     color: #A7B768!important;
     font-size: 50px;
@@ -252,7 +271,7 @@ img{
   }
 
   label{
-    color: #6D9773;
+    color: #A7B768;
     margin: 8px 0px;
   }
 
